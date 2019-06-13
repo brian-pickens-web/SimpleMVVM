@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- <TargetFramework>net47</TargetFramework> -->
+    <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
+    <UseNETCoreGenerator>true</UseNETCoreGenerator>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview4-27615-11\ref\netcoreapp3.0\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview4-27615-11\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview4-27615-11\ref\netcoreapp3.0\WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45' or '$(TargetFramework)' == 'net46' or '$(TargetFramework)' == 'net47' or '$(TargetFramework)' == 'net48'">
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
