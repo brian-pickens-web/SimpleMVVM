@@ -15,13 +15,13 @@
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
     <Reference Include="PresentationCore">
-      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationCore.dll</HintPath>
+      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationCore.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework">
-      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
+      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase">
-      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\WindowsBase.dll</HintPath>
+      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\WindowsBase.dll</HintPath>
     </Reference>
   </ItemGroup>
 
