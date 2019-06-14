@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-    <!-- <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks> -->
+    <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
@@ -71,6 +70,33 @@
       <Generator>XamlIntelliSenseFileGenerator</Generator>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Styles\LoadingArcs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingArcsRing.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingDoubleBounce.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingFlipPlane.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingPulse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingRing.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingThreeDots.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\LoadingWave.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 
 </Project>
