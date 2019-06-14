@@ -8,7 +8,7 @@
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
     <Reference Include="PresentationFramework">
-      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview4-27615-11\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
+      <HintPath>..\..\..\..\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
     </Reference>
   </ItemGroup>
 
