@@ -11,7 +11,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <!-- <TargetFramework>net47</TargetFramework> -->
     <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
+    <UseNETCoreGenerator>true</UseNETCoreGenerator>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
