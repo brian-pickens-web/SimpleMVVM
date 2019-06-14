@@ -1,6 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>SimpleMVVM.Serilog</AssemblyName>
+    <Title>SimpleMVVM Serilog extension</Title>
+    <Authors>Brian Pickens</Authors>
+    <Company>Brian Pickens Web Solutions</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A Serilog extension for SimpleMVVM. Provides a bindable sink for Serilog and Converter.</Description>
+    <PackageDescription>A Serilog extension for SimpleMVVM. Provides a bindable sink for Serilog and Converter.</PackageDescription>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <!-- <TargetFramework>net47</TargetFramework> -->
     <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
     <UseNETCoreGenerator>true</UseNETCoreGenerator>

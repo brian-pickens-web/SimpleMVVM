@@ -1,6 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>SimpleMVVM</AssemblyName>
+    <Title>SimpleMVVM</Title>
+    <Authors>Brian Pickens</Authors>
+    <Company>Brian Pickens Web Solutions</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A simple MVVM engine for WPF</Description>
+    <PackageDescription>A simple MVVM engine for WPF</PackageDescription>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <!-- <TargetFramework>net47</TargetFramework> -->
     <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
     <UseNETCoreGenerator>true</UseNETCoreGenerator>
