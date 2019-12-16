@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <AssemblyName>SimpleMVVM.LoadingIndicators</AssemblyName>
@@ -9,27 +9,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;net45;net46;net47;net48</TargetFrameworks>
-    <UseNETCoreGenerator>true</UseNETCoreGenerator>
+    <TargetFrameworks>netcoreapp3.0;net48;net47;net46;net45</TargetFrameworks>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
-
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0'">
-    <Reference Include="PresentationCore">
-      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationCore.dll</HintPath>
-    </Reference>
-    <Reference Include="PresentationFramework">
-      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\PresentationFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="WindowsBase">
-      <HintPath>C:\PROGRAM FILES\DOTNET\packs\Microsoft.WindowsDesktop.App.Ref\3.0.0-preview6-27804-01\ref\netcoreapp3.0\WindowsBase.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'net45' or '$(TargetFramework)' == 'net46' or '$(TargetFramework)' == 'net47' or '$(TargetFramework)' == 'net48'">
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="WindowsBase" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Remove="Colors.xaml" />
@@ -37,73 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Page Include="Colors.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingArcs.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingDoubleBounce.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingFlipPlane.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingPulse.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingRing.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingThreeDots.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-    <Page Include="Styles\LoadingWave.xaml">
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Page>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Styles\LoadingArcs.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingArcsRing.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingDoubleBounce.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingFlipPlane.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingPulse.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingRing.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingThreeDots.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\LoadingWave.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
 </Project>

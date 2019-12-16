@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMVVM", "SimpleMVVM\Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMVVM.Serilog", "SimpleMVVM.Serilog\SimpleMVVM.Serilog.csproj", "{4EB1754A-EE3D-4550-9738-B4B317E71CD8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65C006EE-600F-4A56-B514-D8E34C10E0AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMVVM.LoadingIndicators", "SimpleMVVM.LoadingIndicators\SimpleMVVM.LoadingIndicators.csproj", "{5F7EE95C-9DB9-4D88-8BDE-50B963ED6983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{4EB1754A-EE3D-4550-9738-B4B317E71CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EB1754A-EE3D-4550-9738-B4B317E71CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EB1754A-EE3D-4550-9738-B4B317E71CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7EE95C-9DB9-4D88-8BDE-50B963ED6983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7EE95C-9DB9-4D88-8BDE-50B963ED6983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7EE95C-9DB9-4D88-8BDE-50B963ED6983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7EE95C-9DB9-4D88-8BDE-50B963ED6983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
